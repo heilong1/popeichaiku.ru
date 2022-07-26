@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--████████████████████████████████████████████████████████████████████████████████████-->
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!--████████████████████████████████████████████████████████-->
+<!--████████████████████████████-->
+	<head>
+
+	<title>Макет 01</title>
+
+	<meta http-equip="Content-Type" content="text/html" charset="UTF-8" />
+	<meta name="description" content="обучающий проект" />
+	<meta name="keywords" content="ключ, обучение, хтмл" />
+	<meta name="author" content="Хей Лонг" />
+
+	<style>
+	body {
+//	border: 2px orange outset;
+	font-size:20px;
+
+
+	}
+
+	* {margin: 0;}
+
+	#nav {
+	position: absolute; top: 10px; left: 10px;
+	border: 2px blue solid;
+	width: 300px;}
+
+	#sdb {
+	position: absolute; top: 10px; right: 10px;
+	border: 2px red solid;
+	width: 300px;
+	text-align: justify;}
+
+	#cnt {
+	position: absolute;
+	margin: 10px 315px;
+	padding: 20px;
+	border: 2px green solid;
+	text-align: justify;}
+
+	a.slnk01 {font-size:25px; bold; text-decoration:none;}
+	a.slnk01:link {color:fuchsia}
+	a.slnk01:visited {color:green}
+	a.slnk01:hover {color:orange}
+	a.slnk01:active {color:red}
+	</style>
+
+
+	<link rel="shortcut icon" href="../exp/ico1.ico">
+
+	</head>
+<!--████████████████████████████-->
+<!--████████████████████████████-->
+	<body>
+
+<div id="nav">
+<ul>Меню:
+<li><a class="slnk01" href="../konsp.html">Первый конспект.</a></li>
+<li><a class="slnk01" href="../csskonsp.html">CSS-конспект.</a></li>
+<li><a class="slnk01" href="mkt02.html">Второй макет.</a></li>
+</ul>
+<img src="../exp/pict.jpg" width="100%">
+</div>
+
+<div id="cnt">
+<p style="color:blue">
+* {margin: 0;}<br>
+<br>
+#nav { //меню<br>
+position: absolute; top: 10px; left: 10px;<br>
+border: 2px blue solid;<br>
+width: 300px;}<br>
+<br>
+#sdb { //правый столбец<br>
+position: absolute; top: 10px; right: 10px;<br>
+border: 2px red solid;<br>
+width: 300px;<br>
+text-align: justify;}<br>
+<br>
+#cnt { //центр<br>
+position: absolute;<br>
+margin: 10px 315px;<br>
+padding: 20px;<br>
+border: 2px green solid;<br>
+text-align: justify;}
+</p>
+
+<p>Указанная ширина для контейнера суммируется с указанным отступом к содержимому, в итоге числовое значение свойства width не будет определять истинную ширину, а только слагаемую часть. Поэтому отступ padding получилось сделать без жертв только центральному, у которого значение ширины отсутствует. Слева по задумке находится меню (nav). Картинка масштабировалась языком html, просто получила значение ширины 100%, что стянуло её в рамки. Справа произвольный раздел для каких-нибудь целей (sdb). Универсальный селектор * стёр все поля, затем они были переопределены. Границы дбавлены для наглядности, если их убрать и добавить полей сверху и с боков - можно добиться миловидности. В теле три раздела просто сделуют по порядку &lt;div/div&gt;. Очевидный момент этой системы - неоходимость корректировать значение боковых полей центра (cnt). Из-за выпадения из потока он сам ровно не встанет, поэтому задавать поля по бокам нужно к ширинам столбцов. Также смущает перекрытие столбцов при сужении экрана, но сужение всегда ломает идею, поэтому не нужно учитывать это, нужно искать иные решения. Вопрос, который требует решения - постоянное меню. Если оно динамично, придётся редактировать код всех документов.
+</p>
+
+</div>
+
+<div id="sdb">
+<p>Нес Медведь, шагая к рынку,<br>
+На продажу меду крынку.<br>
+Вдруг на Мишку, вот напасть<br>
+Пчелы вздумали напасть.<br>
+Мишка с армией осиной<br>
+Дрался вырванной осиной,<br>
+Мог ли в ярость он не впасть,<br>
+Если осы лезли в пасть.<br>
+Жалили куда попало,<br>
+Им за это и попало.
+</p>
+</div>
+
+	</body>
+<!--████████████████████████████-->
+<!--████████████████████████████████████████████████████████-->
+	</html>
+
+<!--
+
+ style="color:blue"
+
+&lt открывающий тег
+&gt; закрывающий тег
+
+<> &lt;&gt;
+<></> &lt;&gt;&lt;/&gt;
+</> &lt;/&gt;
+
+<pre></pre>
+
+<p></p> абзац
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+
+-->
+<!--████████████████████████████████████████████████████████████████████████████████████-->

@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--████████████████████████████████████████████████████████████████████████████████████-->
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!--████████████████████████████████████████████████████████-->
+<!--████████████████████████████-->
+	<head>
+
+	<title>Макет 03</title>
+
+	<meta http-equip="Content-Type" content="text/html" charset="UTF-8" />
+	<meta name="description" content="обучающий проект" />
+	<meta name="keywords" content="ключ, обучение, хтмл" />
+	<meta name="author" content="Хей Лонг" />
+
+	<style>
+	body {
+	font-size:18px;	}
+
+	* {margin: 0;}
+
+	#cnt {
+	margin: 10px;
+	border: 2px green outset;
+	text-align: justify;}
+
+	#cnt #nav {
+	float: right;
+	margin-left: 10px;
+	border: 2px blue solid;
+	width: 300px;}
+
+	a.slnk01 {font-size:25px; bold; text-decoration:none;}
+	a.slnk01:link {color:fuchsia}
+	a.slnk01:visited {color:green}
+	a.slnk01:hover {color:orange}
+	a.slnk01:active {color:red}
+	</style>
+
+
+	<link rel="shortcut icon" href="../exp/ico1.ico">
+
+	</head>
+<!--████████████████████████████-->
+<!--████████████████████████████-->
+	<body>
+
+
+
+
+<div id="cnt">
+
+<div id="nav">
+<ul>Меню:
+<li><a class="slnk01" href="../konsp.html">Первый конспект.</a></li>
+<li><a class="slnk01" href="../csskonsp.html">CSS-конспект.</a></li>
+<li><a class="slnk01" href="mkt02.html">Второй макет.</a></li>
+<li><a class="slnk01" href="mkt04.html">Четвёртый макет.</a></li>
+</ul>
+<img src="../exp/pict.jpg" width="100%">
+</div>
+
+<p style="color:blue">
+#cnt {<br>
+margin: 10px;<br>
+border: 2px green outset;<br>
+text-align: justify;}<br>
+<br>
+#cnt #nav { //дочерний селектор<br>
+float: right;<br>
+margin-left: 10px; //"добавлено поле"<br>
+border: 2px blue solid;<br>
+width: 300px;}
+</p>
+<p>Здесь немного сложнее. Дочерний селектор использован, чтобы наследовать все стили. При этом, кроме наследования, для корректной работы необходимо использовать вложение разделов в теле.
+</p>
+<p style="color:blue">
+&lt;div id="cnt"&gt;<br>
+&lt;div id="nav"&gt;
+&lt;/div&gt;<br>
+&lt;/div&gt;
+</p>
+<p>Несмотря на плавающее размещение раздела nav, граница основного раздела cnt охватила всю ширину страницы. Важно, что текст продолжает обходить раздел. Границы вряд ли будут нужны при создании настоящего сайта, потому здесь можно игнорировать отсутствие миловидности. За изображением граница пропадает, но над текстом меню была. Вероятно, стоило задать белый фон, он должен убирать прозрачность. Чтобы текст немного отодвинулся от меню, "добавлено поле".
+</p>
+</div>
+
+
+	</body>
+<!--████████████████████████████-->
+<!--████████████████████████████████████████████████████████-->
+	</html>
+
+<!--
+
+ style="color:blue"
+
+&lt открывающий тег
+&gt; закрывающий тег
+
+<> &lt;&gt;
+<></> &lt;&gt;&lt;/&gt;
+</> &lt;/&gt;
+
+<pre></pre>
+
+<p></p> абзац
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+
+-->
+<!--████████████████████████████████████████████████████████████████████████████████████-->

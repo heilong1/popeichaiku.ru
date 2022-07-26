@@ -1,0 +1,66 @@
+body {
+  background: #AFCAD9;
+}
+
+* {
+  margin: 0;
+}
+
+p {
+  padding: 10px;
+  font-size: x-large;
+  text-align: justify;
+  text-indent: 30px;
+}
+
+
+/* центр зона*/
+.comdiv {
+background: #ffe1fd;
+position: absolute;
+top: 50px;
+left: 50%;
+margin-left: -40%;
+width: 80%;
+border: dotted 2px;
+}
+
+/* панель меню */
+.navdiv {
+/*border-bottom: 2px blue dotted;/*/
+z-index: 1;
+background: #ffe1fd;
+position: fixed;
+top: 0;
+left: 50%;
+margin-left: -40%;
+width: 80%;
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
+border: dotted 2px;
+}
+/* решение для меню корректируется вручную */
+.navtab th {
+ width: 25%;
+}
+
+ul {
+ list-style-type: none;
+}
+
+li {
+ display: inline;
+ margin: 50px 50px;
+}
+
+/* область содержимого */
+.texdiv {
+padding: 15px;
+text-align: justify;
+}
+/* переопределить ссылки */
+a {font-size:25px; bold; text-decoration:none;}
+a:link {color:green}
+a:visited {color:green}
+a:hover {color:blue;}
+a:active {color:red}

@@ -1,0 +1,1 @@
+﻿function newWind1() {foodWindow=window.open ("exp/pic1.jpg", "foodWin", "width=400,height=300")} 
